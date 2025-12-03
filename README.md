@@ -40,23 +40,6 @@ Funcionamento Geral
     Essas informações permitem ajustes manuais do ar-condicionado conforme a real necessidade do ambiente.
 
 =============================================================================================
-Lógica de Cáculo
-
-    O sistema compara a temperatura atual com três faixas ideais:
-
-        Máquinas: 21 °C – 24 °C
-        Pessoas: 22 °C – 25 °C
-        Conjunto ideal: 22 °C – 23 °C
-
-    O LED acende conforme:
-
-        Vermelho: fora das faixas seguras.
-        Amarelo: dentro das faixas aceitáveis, porém não ótimas.
-        Verde: dentro de 22–23 °C.
-
-    A umidade entre 40% e 60% também é monitorada.
-
-=============================================================================================
 Tecnologias Utilizadas
 
     Python (processamento no Raspberry Pi)
